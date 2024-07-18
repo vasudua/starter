@@ -6,6 +6,15 @@ return {
       require "configs.conform"
     end,
   },
+  {
+    "ibhagwan/fzf-lua",
+    -- optional for icon support
+    dependencies = { "nvim-tree/nvim-web-devicons" },
+    config = function()
+      -- calling `setup` is optional for customization
+      require("fzf-lua").setup({})
+    end
+  }
 
   -- These are some examples, uncomment them if you want to see them work!
   -- {
