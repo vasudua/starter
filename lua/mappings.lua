@@ -15,6 +15,6 @@ map("n", "<leader>sc", require('fzf-lua').git_commits, { desc = "fzf git commits
 map("n", "<leader>ss", require('fzf-lua').git_status, { desc = "fzf git status" })
 map("n", "<leader>sgf", require('fzf-lua').git_files, { desc = "fzf git files" })
 map("n", "<leader>/", require('fzf-lua').lgrep_curbuf, { desc = "fzf search in current buffer" })
-
+map("n", "<leader>sk", require('fzf-lua').keymaps, { desc = "fzf Search for keymaps"})
 
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
