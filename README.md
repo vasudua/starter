@@ -1,5 +1,5 @@
-brew install neovim
-brew install ripgrep
+`brew install neovim`
+`brew install ripgrep`
 
 To install on linux/macos:
 `git clone https://github.com/vasudua/starter --branch custom_configs ~/.config/nvim`
